@@ -22,7 +22,7 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 export default function ProminentAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar sx={{backgroundColor:"purple"}}position="static">
+      <AppBar sx={{backgroundColor:"purple" }}position="static">
         <StyledToolbar>
           <IconButton
             size="large"
@@ -39,12 +39,15 @@ export default function ProminentAppBar() {
             component="div"
             sx={{ flexGrow: 1, alignSelf: 'flex-end'  }}
           >
-          <img src='https://static.vecteezy.com/system/resources/previews/009/481/029/non_2x/geometric-icon-logo-geometric-abstract-element-free-vector.jpg'/>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp4AqtzOD8c2EpcOYwQjiwuzQwnRuEbO8_XQ&s'  style={{ width: '50px', height: '50px' , position: "absolute" , left:"260px", top:"8px" }}/>
+ 
           </Typography>
+          
           <IconButton size="large" aria-label="search" color="inherit">
+          <img src='https://static.vecteezy.com/system/resources/thumbnails/004/798/846/small/shopping-cart-logo-or-icon-design-vector.jpg'   style={{ width: '50px', height: '50px' , position: "absolute" , right:"73px", top:"2px" }}/>
            <input style={{width:"800px", borderRadius:"50PX" , position: "absolute" ,
-                right: "150px"}}/> <SearchIcon sx={{position: "absolute" ,
-                right: "130px"}}/>
+                right: "150px", top:"10px"}}/> <SearchIcon sx={{position: "absolute" ,
+                right: "130px" , top:"10px"}}/>
           </IconButton>
           <IconButton
             size="large"
